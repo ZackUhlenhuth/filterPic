@@ -1,0 +1,88 @@
+/* CSS declarations go here */
+
+canvas {
+	margin-top: 20px;
+}
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 5px;
+  text-align: center;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.container {
+	max-width: 1200px;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* begin original styling */
+.slider {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.chanceOfLifeAdjuster {
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid #d8d8d8;
+}
+
+#gameOfLife {
+  margin: auto;
+}
+
+/* custom pointer */
+.btn {
+  cursor: pointer;
+}
+
+.btn-group {
+  margin-top: 2px;
+}
